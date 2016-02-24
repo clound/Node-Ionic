@@ -1,6 +1,5 @@
 # 手机应用和PC浏览器端共用一个node服务器
 
-***
 ###网页的博客
 blog是网页的博客,采用node开发后台服务器，数据库采用的是mongodb，框架是node的express框架。  
 
