@@ -1,0 +1,8 @@
+/* Empty. Add your own CSS if you like */
+ion-slide{
+    text-align:center;
+}
+ion-slide img{
+    width:100%;
+    height:50%;
+}

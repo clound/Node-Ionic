@@ -1,0 +1,36 @@
+<ion-view view-title="个人中心">
+  <ion-content>
+      <div class="list">
+        <form action="#" role="form" method="post" >
+          <div class="list list-inset">
+            <label class="item item-input">
+              <i class="icon ion-ios-personadd-outline placeholder-icon"></i>
+              <input type="text" placeholder="用户名：" ng-model="ctrlScope.uname">
+            </label>
+          </div>
+          <div class="list list-inset">
+            <label class="item item-input">
+              <i class="icon ion-ios-unlocked-outline placeholder-icon"></i>
+              <input type="text" placeholder="密码：" ng-model="ctrlScope.passwd">
+            </label>
+          </div>
+          <div class="list list-inset">
+            <label class="item item-input">
+              <i class="icon ion-ios-locked-outline placeholder-icon"></i>
+              <input type="text" placeholder="确认密码：" ng-model="ctrlScope.uuname">
+            </label>
+          </div>
+          <div class="list list-inset">
+            <label class="item item-input">
+              <i class="icon ion-ios-email-outline placeholder-icon"></i>
+              <input type="text" placeholder="邮箱：" ng-model="ctrlScope.email">
+            </label>
+          </div>
+        </form>
+      </div>
+      <div class="padding">
+        <button class="button button-block button-positive" ng-click="register()">注册</button>
+      </div>
+  </ion-content>
+</ion-view>
+
